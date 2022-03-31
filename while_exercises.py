@@ -37,4 +37,18 @@ while num >= 23:
     print(num)
     num = num - 1
 
+TestScor = int(input("plese enter a score"))
+while TestScor != 100:
+    print("Must be re-examined")
+    TestScor = int(input("plese enter a score"))
+    if TestScor == 100:
+      print("you rule,enter a scend scor")
+      TestScor = int(input("plese enter a score"))
 
+import math
+aviva = int(input("plese enter a number"))
+while aviva != 10:
+    print("Try again")
+    aviva = int(input("plese enter a number"))
+if aviva == 10:
+    print(math.pow(aviva,2))

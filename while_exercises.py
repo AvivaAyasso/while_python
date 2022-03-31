@@ -1,18 +1,18 @@
-1
+#1
 num = 1
 while num <= 20:
     if num % 2 != 0:
      print(num)
     num = num + 1
 
-3
+#3
 number = int(input("enter a number"))
 while number <= 20:
     if number % 2 != 0:
         print(number)
     number = number + 1
 
-5
+#5
 guessnum = int(input("please enter a number between 1-1000"))
 start = 1
 end = 1000

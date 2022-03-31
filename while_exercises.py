@@ -52,3 +52,26 @@ while aviva != 10:
     aviva = int(input("plese enter a number"))
 if aviva == 10:
     print(math.pow(aviva,2))
+
+n = 0
+p = false
+sum = 0
+while n < 32:
+    sum += n
+    if(sum >= 20) and (p==fase):
+        print(n)
+        p=true
+    n += 1
+    print(sum)
+
+num = 1
+while num < 21:
+    if num %2 != 0:
+        print(num)
+    num = num+1
+
+l = [1, 2, 3, 4, 5]
+i = 0
+while i < len(l):
+    print(l [i] ** 2)
+    i += 1
